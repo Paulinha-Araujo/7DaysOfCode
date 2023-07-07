@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	let nome = (prompt("Qual o seu nome?"));
+
+	let idade = parseInt(prompt ("Quantos anos você tem?"));
+
+	let linguagem = (prompt ("Qual linguagem de programação você está estudando?"));
+
+	
+	let n1 = 1;
+	let n2 = 2;
+
+	let resposta = (parseInt (prompt ("Você gosta de estudar a linguagem " + linguagem + "? Responda com o número " + n1 + " para SIM " + "ou" + n2 + " para NÃO")));
+
+	mostra("Ola " + nome + " você tem " + idade + " anos, e já está aprendendo a linguagem " + linguagem);
+
+
+	if(resposta == n1) {
+		
+		mostra ("Muito bom! Continue estudando e você terá muito sucesso!");
+	} else {
+
+	if (resposta == n2) {
+		mostra ("Ah que pena... Já pensou em conhecer outras lingugagens?");
+	}
+}
+	</script>

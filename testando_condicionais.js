@@ -1,3 +1,4 @@
+// 1º dia do Desafio Of Code da ALura
 let nUm = 1;
 let stringUm = "1";
 let nTrinta = 30;

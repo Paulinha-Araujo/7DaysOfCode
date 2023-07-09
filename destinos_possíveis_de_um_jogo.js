@@ -1,6 +1,6 @@
 // 3º dia do Desafio Of Code da Alura em JavaScript
 
-const input = require('readline-sync')
+const input = require ('readline-sync')
 
 let escolha = input.question("Voce prefere a area de Front-End ou Beck-End? Escreva 1 para Front-End e 2 para Beck-End. ");
 console.log(escolha)

@@ -14,8 +14,8 @@ let outraPergunta = input.question("Voce quer se especializar ou ser Fullstack?"
 let linguagem = " ";
 while (true) {
     let pergunte = input.question("Quais tecnologias voce gostaria de aprender?")
-    linguagem = linguagem + "," + pergunte
-    let outraPergunta = input.question("Você deseja continuar? Digite S para (Sim) e N para (Nao)")
+    linguagem = linguagem + pergunte
+    let outraPergunta = input.question("Voce deseja continuar? Digite S para (Sim) e N para (Nao)")
     if (outraPergunta == "N") {1
         console.log(linguagem)
         break;
